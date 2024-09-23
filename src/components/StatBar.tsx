@@ -1,5 +1,6 @@
+import React from 'react';
 
-const StatBar = () => {
+const StatBar: React.FC = () => {
     return (
         <div className="stats shadow bg-highlight">
             <div className="stat">

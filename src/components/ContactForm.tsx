@@ -1,6 +1,6 @@
 import React, { useState, FormEvent } from 'react';
 
-function ContactForm() {
+const ContactForm: React.FC = () => {
     const [result, setResult] = useState<string>("");
 
     const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
