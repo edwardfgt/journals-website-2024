@@ -12,7 +12,7 @@ const Home: React.FC = () => {
                     Our Industries
                 </h1>
             </div>
-            <div className="flex flex-col items-center justify-center mt-40 w-full">
+            <div className="flex flex-col items-center justify-center mt-10 w-full">
                 <IndustryBlock
                     name="Technology"
                     description="Innovative solutions and cutting-edge technology."
