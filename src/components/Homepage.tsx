@@ -16,7 +16,6 @@ const Home: React.FC = () => {
                     Our Industries
                 </h1>
             </div>
-
             <IndustrySection />
         </div>
     )
