@@ -1,7 +1,7 @@
 import HeadingBlock from './HeadingBlock';
 import StatBar from './StatBar';
 import IndustrySection from './IndustrySection';
-
+import SponsorGrid from './SponsorGrid';
 const Home: React.FC = () => {
     return (
         <div className="bg-background min-h-screen flex flex-col items-center pb-20">
@@ -17,6 +17,13 @@ const Home: React.FC = () => {
                 </h1>
             </div>
             <IndustrySection />
+
+            <div className="flex flex-col items-center justify-center mt-20">
+                <h1 className="text-4xl font-bold text-text">
+                    Trusted by
+                </h1>
+            </div>
+            <SponsorGrid />
         </div>
     )
 }
