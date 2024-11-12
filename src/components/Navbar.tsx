@@ -8,6 +8,7 @@ const Navbar: React.FC = () => {
                 <Link to="/" className="text-text font-bold text-xl pr-8">Journals.gg</Link>
                 <div className="space-x-4">
                     <Link to="/contact" className="btn btn-ghost text-text hover:bg-highlight hover:text-white normal-case">Contact</Link>
+                    <Link to="https://creator.journals.gg/" className="btn btn-ghost text-text hover:bg-highlight hover:text-white normal-case">Grow a newsletter</Link>
                 </div>
             </div>
         </nav>
