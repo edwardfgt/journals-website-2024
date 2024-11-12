@@ -3,7 +3,7 @@ import IndustryBlock from './IndustryBlock';
 
 const IndustrySection: React.FC = () => {
     return (
-        <div className="flex flex-row items-start justify-center mt-10 w-full space-x-6">
+        <div className="flex flex-col md:flex-row items-center md:items-start justify-center mt-10 w-full px-4 md:px-0 md:space-x-6 space-y-6 md:space-y-0">
             <IndustryBlock
                 name="Finance"
                 description={
