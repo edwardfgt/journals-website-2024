@@ -1,12 +1,12 @@
 import React from 'react';
-import foolLogo from '../assets/sponsors/fool.png';
-import hubspotLogo from '../assets/sponsors/hubspot.png';
-import polymarketLogo from '../assets/sponsors/polymarket.png';
-import huelLogo from '../assets/sponsors/huel.png';
-import verizonLogo from '../assets/sponsors/verizon.png';
-import masterworksLogo from '../assets/sponsors/masterworks.png';
-import moneyLogo from '../assets/sponsors/money.png';
-import pinataLogo from '../assets/sponsors/pinata.png';
+import foolLogo from '/public/sponsors/fool.png';
+import hubspotLogo from '/public/sponsors/hubspot.png';
+import polymarketLogo from '/public/sponsors/polymarket.png';
+import huelLogo from '/public/sponsors/huel.png';
+import verizonLogo from '/public/sponsors/verizon.png';
+import masterworksLogo from '/public/sponsors/masterworks.png';
+import moneyLogo from '/public/sponsors/money.png';
+import pinataLogo from '/public/sponsors/pinata.png';
 
 const SponsorGrid: React.FC = () => {
     return (
