@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import IndustryBlock from './IndustryBlock';
 
 const IndustrySection: React.FC = () => {
+    const [maxHeight, setMaxHeight] = useState<number>(0);
+
+    useEffect(() => {
+        // Find all description containers and set them to the height of the tallest one
+        const descriptions = document.querySelectorAll('.industry-description');
+        const heights = Array.from(descriptions).map(el => el.scrollHeight);
+        setMaxHeight(Math.max(...heights));
+    }, []);
+
     return (
         <div className="flex flex-col md:flex-row items-center md:items-start justify-center mt-10 w-full px-4 md:px-0 md:space-x-6 space-y-6 md:space-y-0">
             <IndustryBlock
                 name="Finance"
                 description={
-                    <div className="p-0">
+                    <div className="industry-description p-0" style={{ height: maxHeight || 'auto' }}>
                         <p className="text-lg mb-4">
                             Our finance newsletters serve a diverse and engaged audience, including:
                         </p>
@@ -41,7 +50,7 @@ const IndustrySection: React.FC = () => {
             <IndustryBlock
                 name="Programming"
                 description={
-                    <div className="p-0">
+                    <div className="industry-description p-0" style={{ height: maxHeight || 'auto' }}>
                         <p className="text-lg mb-4">
                             Reach passionate developers who shape the future of tech:
                         </p>
@@ -75,7 +84,7 @@ const IndustrySection: React.FC = () => {
             <IndustryBlock
                 name="Gaming"
                 description={
-                    <div className="p-0">
+                    <div className="industry-description p-0" style={{ height: maxHeight || 'auto' }}>
                         <p className="text-lg mb-4">
                             We have a passionate and engaged gaming audience across multiple newsletters:
                         </p>
