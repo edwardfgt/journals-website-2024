@@ -6,13 +6,42 @@ const IndustrySection: React.FC = () => {
         <div className="flex flex-row items-start justify-center mt-10 w-full space-x-6">
             <IndustryBlock
                 name="Finance"
-                description="Innovative solutions and cutting-edge technology."
+                description={
+                    <div className="p-0">
+                        <p className="text-lg mb-4">
+                            Our finance newsletters serve a diverse and engaged audience, including:
+                        </p>
+
+                        <ul className="space-y-2 mb-6">
+                            <li className="flex items-center">
+                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                <span>Retail investors looking for timely market insights.</span>
+                            </li>
+                            <li className="flex items-center">
+                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                <span>Day traders tracking the latest market trends.</span>
+                            </li>
+                            <li className="flex items-center">
+                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                <span>Individuals exploring alternative investment opportunities.</span>
+                            </li>
+                            <li className="flex items-center">
+                                <div className="w-2 h-2 bg-green-500 rounded-full mr-3"></div>
+                                <span>Employees at leading financial institutions.</span>
+                            </li>
+                        </ul>
+
+                        <p className="text-lg">
+                            Our US based Finance audiences are deeply interested in the financial sector, these readers are particularly interested in equity crowd funding, emerging investment platforms, and credit card offers and more.
+                        </p>
+                    </div>
+                }
                 imageUrl="https://www.geographicguide.com/united-states/nyc/antique/wall-street/images/vintage-images-ny.jpg"
             />
             <IndustryBlock
                 name="Programming"
                 description={
-                    <div className="max-w-2xl mx-auto p-6">
+                    <div className="p-0">
                         <p className="text-lg mb-4">
                             Reach passionate developers who shape the future of tech:
                         </p>
@@ -46,7 +75,7 @@ const IndustrySection: React.FC = () => {
             <IndustryBlock
                 name="Gaming"
                 description={
-                    <div className="max-w-2xl mx-auto p-6">
+                    <div className="p-0">
                         <p className="text-lg mb-4">
                             We have a passionate and engaged gaming audience across multiple newsletters:
                         </p>
