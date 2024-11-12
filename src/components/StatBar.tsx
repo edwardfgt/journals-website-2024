@@ -9,8 +9,8 @@ const StatBar: React.FC = () => {
             </div>
 
             <div className="stat">
-                <div className="stat-title text-text">Placeholder</div>
-                <div className="stat-value text-text">4,200</div>
+                <div className="stat-title text-text">Publications</div>
+                <div className="stat-value text-text">10</div>
             </div>
 
             <div className="stat">
