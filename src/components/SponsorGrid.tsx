@@ -1,5 +1,5 @@
 import React from 'react';
-import foolLogo from '../assets/sponsors/Fool.png';
+import foolLogo from '../assets/sponsors/fool.png';
 import hubspotLogo from '../assets/sponsors/hubspot.png';
 import polymarketLogo from '../assets/sponsors/polymarket.png';
 import huelLogo from '../assets/sponsors/huel.png';
