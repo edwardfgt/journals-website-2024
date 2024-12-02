@@ -12,8 +12,8 @@ const SponsorGrid: React.FC = () => {
             <div className="flex flex-wrap justify-center items-center gap-8 mt-10">
                 <img src="/Images/verizon.png" alt="Sponsor 1" className="h-16 w-auto" />
                 <img src="/Images/masterworks.png" alt="Sponsor 2" className="h-16 w-45" />
-                <img src="/Images/money.png" alt="Sponsor 3" className="h-16 w-auto" />
-                <img src="/Images/pinata.png" alt="Sponsor 4" className="h-16 w-auto" />
+                <img src="/Images/pinata.png" alt="Sponsor 3" className="h-16 w-auto" />
+                <img src="/Images/money.png" alt="Sponsor 4" className="h-16 w-auto" />
             </div>
         </div>
     );
