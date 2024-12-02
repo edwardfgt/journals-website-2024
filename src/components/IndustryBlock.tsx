@@ -6,7 +6,7 @@ interface IndustryBlockProps {
 
 const IndustryBlock: React.FC<IndustryBlockProps> = ({ name, description, imageUrl }) => {
     return (
-        <div className="card bg-text w-full sm:w-80 md:w-96 shadow-xl rounded-b-lg">
+        <div className="card bg-text w-full sm:w-80 md:w-96 shadow-xl rounded-b-lg hover:shadow-black hover:shadow-2xl transition duration-300">
             <figure>
                 <img
                     src={imageUrl}
