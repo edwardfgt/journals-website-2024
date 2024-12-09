@@ -45,7 +45,7 @@ const IndustrySection: React.FC = () => {
                         </p>
                     </div>
                 }
-                imageUrl="https://imgur.com/a/tmsk7KY"
+                imageUrl="https://i.imgur.com/RhrtmAa.jpeg"
             />
             <IndustryBlock
                 name="Programming"
