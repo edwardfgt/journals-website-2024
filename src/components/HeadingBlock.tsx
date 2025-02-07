@@ -9,7 +9,7 @@ const HeadingBlock: React.FC = () => {
                 </a> is a creator first newsletter agency
             </h1>
             <p className="text-xl md:text-2xl mb-6 md:mb-8 text-text px-4">
-                We're in the inboxes of Youtubers most engaged fans, sending millions of emails a month.
+                We're in the inboxes of creators most engaged fans, sending millions of emails a month.
             </p>
             <p className="text-xl md:text-2xl font-semibold text-text px-4">
                 Trusted by Youtubers, creators, and celebrities with over 542,000 readers.
