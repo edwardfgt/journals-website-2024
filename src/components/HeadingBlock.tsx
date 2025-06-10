@@ -12,7 +12,7 @@ const HeadingBlock: React.FC = () => {
                 We're in the inboxes of creators most engaged fans, sending millions of emails a month.
             </p>
             <p className="text-xl md:text-2xl font-semibold text-text px-4">
-                Trusted by Youtubers, creators, and celebrities with over 542,000 readers.
+                Trusted by Youtubers with over 5.35 million subscribers.
             </p>
         </div>
     );
