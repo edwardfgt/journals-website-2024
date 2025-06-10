@@ -6,7 +6,7 @@ const StatBar: React.FC = () => {
 
             <div className="stat min-w-[200px]">
                 <div className="stat-title text-text">Publications</div>
-                <div className="stat-value text-text text-2xl sm:text-4xl">12</div>
+                <div className="stat-value text-text text-2xl sm:text-4xl">12+</div>
             </div>
 
             <div className="stat min-w-[200px]">
